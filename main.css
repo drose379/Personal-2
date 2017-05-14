@@ -136,8 +136,11 @@ nav #social-row .social-item img {
   font-size: 2em;
 }
 
+#landing-rest #projects-label {
+  font-size: 2.3em !important;
+}
+
 #landing-rest #main p {
-  width: 75%;
   margin: 0;
   padding: 0;
   margin-top: 2%;
@@ -145,10 +148,10 @@ nav #social-row .social-item img {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 6%;
 }
 
 #landing-rest #landing-info {
-  margin-top: 6%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -182,6 +185,7 @@ nav #social-row .social-item img {
 #aarininc {
   /*background: url( "https://static.pexels.com/photos/4097/city-cars-traffic-lights.jpeg" ) center center;*/
   background-color: rgba(255,255,255,.3);
+  margin-top: 1%;
 }
 
 #smartparts {
