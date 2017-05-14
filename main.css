@@ -4,7 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url( 'res/stardust.png' ) fixed;
+  background: url( 'res/footer_lodyas.png' ) fixed;
 }
 
 * {
@@ -294,7 +294,7 @@ nav #social-row .social-item img {
 #interests #skills-container .skill {
   flex-grow: 1;
   flex-basis: 0;
-  background-color: rgba(41,128,185,.3);
+  background-color: rgba(41,128,185,0.7);
   font-family: 'Open Sans', sans-serif;
   margin: 1%;
   margin-top: 0;
