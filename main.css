@@ -332,3 +332,10 @@ nav #social-row .social-item img {
   font-family: 'Roboto Condensed', sans-serif;
   color: #ecf0f1;
 }
+
+#contact {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: -5%;
+  margin-bottom: 6%;
+}
