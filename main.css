@@ -21,8 +21,8 @@ body {
 nav {
   background-color: rgba( 263, 240, 241, 0.7 );
   font-family: 'Open Sans', sans-serif;
-  /*margin-right: 3em;*/
   min-width: 15%;
+  max-width: 15%;
   height: 100%;
   padding: 0;
   position: fixed;
@@ -130,6 +130,7 @@ nav #social-row .social-item img {
   color: #ecf0f1;
   width: 85%;
   max-width: 1200px;
+  margin-left: -10px;
 }
 
 #landing-rest #main h1 {
@@ -294,10 +295,11 @@ nav #social-row .social-item img {
 
 #interests #skills-container {
   display: flex;
+  flex-wrap: wrap;
 }
 #interests #skills-container .skill {
   flex-grow: 1;
-  flex-basis: 0;
+  flex-basis: 300px;
   background-color: rgba(41,128,185,0.7);
   font-family: 'Open Sans', sans-serif;
   margin: 1%;
