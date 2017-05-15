@@ -26,6 +26,7 @@ nav {
   padding: 0;
   position: fixed;
   box-sizing: border-box;
+  box-shadow: 5px 0px 3px -2px black;
 }
 
 .col {
