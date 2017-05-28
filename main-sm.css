@@ -12,7 +12,7 @@ nav .col {
 }
 
 nav #social-row {
-  display: none;
+  background-color: red;
 }
 
 nav h3 {
