@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url( 'res/footer_lodyas.png' ) fixed;
+  /*background: url( 'res/footer_lodyas.png' ) fixed;*/
 }
 
 * {
@@ -120,6 +120,7 @@ nav #social-row .social-item img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url( 'res/footer_lodyas.png' ) fixed;
 }
 
 #landing-rest #main {

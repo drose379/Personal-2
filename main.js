@@ -18,8 +18,6 @@ $(document).ready( function() {
       $('#landing-rest').css('margin-left', '0');
     }
 
-    alert( "Height CHG" )
-
   } );
 
   function alignContent() {
