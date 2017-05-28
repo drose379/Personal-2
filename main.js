@@ -2,7 +2,7 @@ $(document).ready( function() {
   if( $(window).width() >= 1100 )
     alignContent();
   else {
-    var contentTopMargin = $('nav').outerHeight() + $('nav').find('.col').outerHeight();
+    var contentTopMargin = $('nav').outerHeight() + $('nav').find('.col').outerHeight() + 50;
     $('#landing-rest').css('margin-top', contentTopMargin);
   }
 
@@ -17,6 +17,8 @@ $(document).ready( function() {
       $('#landing-rest').css('margin-top', contentTopMargin);
       $('#landing-rest').css('margin-left', '0');
     }
+
+    alert( "Height CHG" )
 
   } );
 

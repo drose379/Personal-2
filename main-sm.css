@@ -20,5 +20,5 @@ nav h3 {
 }
 
 #landing-rest {
-
+  z-index: -1;
 }
