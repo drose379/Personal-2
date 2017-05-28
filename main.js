@@ -2,7 +2,7 @@ $(document).ready( function() {
   if( $(window).width() >= 1100 )
     alignContent();
   else {
-    var contentTopMargin = $('nav').outerHeight() + $('nav').find('.col').outerHeight() + 50;
+    var contentTopMargin = $('nav').outerHeight() + $('nav').find('.col').outerHeight();
     $('#landing-rest').css('margin-top', contentTopMargin);
   }
 
