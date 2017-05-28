@@ -13,6 +13,7 @@ nav .col {
 
 nav #social-row {
   background-color: red;
+  opacity: 0;
 }
 
 nav h3 {
